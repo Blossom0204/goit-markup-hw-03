@@ -1,0 +1,115 @@
+:root {
+  --secondary-color: #ffffff;
+  --bg-color: #2196f3;
+  --text-color: #757575;
+}
+/* =====maim page===== */
+/* =====hero===== */
+.hero {
+  background-color: #2f303a;
+}
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1, 364;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--secondary-color);
+}
+.hero-button {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1, 875;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  background-color: #2196f3;
+  color: var(--secondary-color);
+}
+/* =====end-hero===== */
+/* =====section-features===== */
+.features-link-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1, 143;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.features-link-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1, 714;
+  letter-spacing: 0.03em;
+  color: var(--text-color);
+}
+/* =====end-section-features===== */
+/* =====section-work===== */
+.work-title,
+.team-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1, 167;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+/* =====end-section-work */
+/* =====section-team===== */
+.team {
+  background-color: #f5f4fa;
+}
+.team-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1, 188;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.team-position {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1, 188;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--text-color);
+}
+/* =====end-section-team===== */
+/* =====end main page===== */
+/* =====portfolio page===== */
+/* =====portfolio===== */
+.gallery-name {
+  display: none;
+}
+.btn-gallery {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1, 625px;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.btn-gallery:hover,
+.btn-gallery:focus {
+  background-color: #2196f3;
+  color: var(--secondary-color);
+}
+/* =====end-portfolio===== */
+/* =====filtrs===== */
+.filter-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.filter-btn-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1, 875x;
+  letter-spacing: 0.03em;
+  color: var(--text-color);
+}
+/* =====end-filtrs===== */
+/* =====end portfolio page===== */
+.site-nav .current {
+  color: var(--accent-color);
+}
