@@ -29,7 +29,7 @@
   display: block;
   font-weight: 500;
   font-size: 14px;
-  line-height: 1, 143;
+  line-height: 1.143;
   letter-spacing: 0.02em;
   text-decoration: none;
 }
@@ -50,7 +50,7 @@
   margin: auto;
   font-weight: 900;
   font-size: 44px;
-  line-height: 1, 364;
+  line-height: 1.364;
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--secondary-color);
@@ -65,7 +65,7 @@
   border-radius: 4px;
   font-weight: 700;
   font-size: 16px;
-  line-height: 1, 875;
+  line-height: 1.875;
   letter-spacing: 0.06em;
   background-color: #2196f3;
   color: var(--secondary-color);
@@ -88,14 +88,14 @@
   padding-bottom: 10px;
   font-weight: 700;
   font-size: 14px;
-  line-height: 1, 143;
+  line-height: 1.143;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 .features-link-text {
   font-weight: 400;
   font-size: 14px;
-  line-height: 1, 714;
+  line-height: 1.714;
   letter-spacing: 0.03em;
   color: var(--text-color);
 }
@@ -121,7 +121,7 @@
   padding-bottom: 50px;
   font-weight: 700;
   font-size: 36px;
-  line-height: 1, 167;
+  line-height: 1.167;
   text-align: center;
   letter-spacing: 0.03em;
 }
@@ -138,7 +138,7 @@
   padding: 30px 59px 10px;
   font-weight: 500;
   font-size: 16px;
-  line-height: 1, 188;
+  line-height: 1.188;
   text-align: center;
   letter-spacing: 0.03em;
 }
@@ -151,7 +151,7 @@
 .team-position {
   font-weight: 400;
   font-size: 16px;
-  line-height: 1, 188;
+  line-height: 1.188;
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--text-color);
@@ -191,7 +191,7 @@
 
   font-weight: 500;
   font-size: 16px;
-  line-height: 1, 625px;
+  line-height: 1.625px;
   text-align: center;
   letter-spacing: 0.03em;
   background-color: #f5f4fa;
@@ -220,8 +220,9 @@
   margin-bottom: 0;
 }
 .filter-title {
-  width: 322px;
+  min-width: 322px;
   height: 36px;
+  padding: 20px 24px;
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
@@ -229,10 +230,10 @@
 }
 .filter-btn-text {
   width: 322px;
-  height: 30px;
+  padding: 20px 24px;
   font-weight: 400;
   font-size: 16px;
-  line-height: 1, 875x;
+  line-height: 1.875;
   letter-spacing: 0.03em;
   color: var(--text-color);
 }

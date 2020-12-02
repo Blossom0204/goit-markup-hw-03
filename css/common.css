@@ -61,7 +61,7 @@ img {
   font-family: var(--secondary-font);
   font-weight: 700;
   font-size: 26px;
-  line-height: 1, 192;
+  line-height: 1.192;
   letter-spacing: 0.03em;
   color: var(--accent-color);
   text-decoration: none;
@@ -73,7 +73,7 @@ img {
 .contacts-tel {
   font-weight: 500;
   font-size: 14px;
-  line-height: 1, 143;
+  line-height: 1.143;
   letter-spacing: 0.02em;
   color: #757575;
   text-decoration: none;
@@ -90,6 +90,9 @@ img {
   color: var(--secondary-color);
   width: 145px;
 }
+.site-nav-link {
+  color: #212121;
+}
 .contacts-footer-list {
   padding-top: 20px;
   padding-bottom: 60px;
@@ -97,7 +100,7 @@ img {
   height: 81px;
   font-weight: 400;
   font-size: 14px;
-  line-height: 1, 714;
+  line-height: 1.714;
   letter-spacing: 0.03em;
   font-style: normal;
 }
