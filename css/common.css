@@ -42,7 +42,7 @@ img {
 .contacts-footer-link:hover,
 .contacts-footer-link:focus {
   color: var(--accent-color);
-}
+  }
 .header {
   display: flex;
   align-items: center;
